@@ -614,7 +614,8 @@ body {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: $font-primary;
-	background-color: $brand-primary;
+	background-color: RGBA(7, 72, 131, 1.00);
+	// background-color: linear-gradient(to right, RGBA(238, 182, 47, 1.00), RGBA(7, 72, 131, 1.00)) !important;
 	color: $brand-white;
 	position: relative;
 	-webkit-box-shadow: none !important;

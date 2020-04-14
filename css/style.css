@@ -447,7 +447,10 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: RGBA(232, 184, 77, 1.00); }
+  background: #FFF;
+  /* border: 2px;
+  border-color: linear-gradient(to right, RGBA(238, 182, 47, 1.00), RGBA(7, 72, 131, 1.00)) !important; */
+  }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
