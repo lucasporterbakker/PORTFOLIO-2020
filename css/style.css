@@ -75,6 +75,7 @@ figure {
 #colorlib-page-blue {
     width: 100%;
     overflow: hidden;
+    height: 100vh;
     background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00));
     /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
     /* background-image: RGBA(240, 183, 46, 1.00)); */
@@ -447,7 +448,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #FFF;
+  background: #RGBA(43, 69, 119, 1.00);
   /* border: 2px;
   border-color: linear-gradient(to right, RGBA(238, 182, 47, 1.00), RGBA(7, 72, 131, 1.00)) !important; */
   }
