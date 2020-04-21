@@ -15,10 +15,11 @@
   --rocket-window: #275efe;
   --rocket-window-shadow: #c2c3d9;
   --rocket-line: #9ea0be;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 19px;
-  padding: 14px 28px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 16px 30px;
   display: table;
   position: relative;
   -webkit-backface-visibility: hidden;
@@ -409,8 +410,9 @@
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
   }
-}
-html {
+} */
+
+/* html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
@@ -421,6 +423,10 @@ html {
 *:before, *:after {
   box-sizing: inherit;
 } */
+
+
+
+/* BIRDS */
 
 
 /* body {
@@ -443,7 +449,7 @@ html {
   max-width: 100%;
   overflow: hidden;
 } */
-.wrapper-no4 .button-bird {
+/* .wrapper-no4 .button-bird {
   width: 300px;
   text-align: center;
   height: 88px;
@@ -451,7 +457,7 @@ html {
   border-radius: 5px;
   position: absolute;
   top: 50%;
-  /* left: 9%; */
+
   opacity: 1;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1443,4 +1449,4 @@ html {
     top: 12px;
     left: 43%;
   }
-}
+} */
