@@ -449,11 +449,11 @@
   max-width: 100%;
   overflow: hidden;
 } */
-/* .wrapper-no4 .button-bird {
+.wrapper-no4 .button-bird {
   width: 300px;
   text-align: center;
   height: 88px;
-  background-color: #131335;
+  background-color: RGBA(18, 20, 51, 1.00);
   border-radius: 5px;
   position: absolute;
   top: 50%;
@@ -491,9 +491,12 @@
 
 .wrapper-no4 .button-bird__text {
   text-align: center;
-  font-size: 20px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #BEEDFF;
+  font-size: 46px;
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  font-weight: 500;
+  /* font-weight: bold; */
+
   position: absolute;
   z-index: 1000;
   top: 50%;
@@ -1449,4 +1452,24 @@
     top: 12px;
     left: 43%;
   }
-} */
+}
+
+#bird-footer {
+
+}
+@media screen and (max-width: 768px) {
+  #bird-footer {
+    text-align: center;
+  }
+}
+
+.button-bump {
+  padding: 10px 0px 50px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-bump {
+    text-align: center;
+    padding: 10px 10px 50px 10px;
+  }
+}
