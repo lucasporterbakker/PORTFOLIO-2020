@@ -70,13 +70,25 @@ figure {
 #colorlib-page {
   width: 100%;
   overflow: hidden;
+  /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
+  background-image: url('../images/cover_bg_2.jpg');
   position: relative; }
+  @media screen and (max-width: 768px) {
+    #colorlib-page {
+      width: 100%;
+      overflow: hidden;
+      /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
+      background-image: none;
+      position: relative;
+    }
+  }
 
 #colorlib-page-blue {
     width: 100%;
     overflow: hidden;
     height: 100vh;
     background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00));
+    /* background-image: url('../images/cover_bg_1.jpg'); */
     /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
     /* background-image: RGBA(240, 183, 46, 1.00)); */
     position: relative; }
@@ -90,6 +102,26 @@ figure {
         background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00));
         /* background-image: RGBA(240, 183, 46, 1.00)); */
         position: relative; } }
+
+        #colorlib-page-orange {
+          width: 100%;
+          overflow: hidden;
+          height: 100vh;
+          /* background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00)); */
+          /* background-image: url('../images/cover_bg_1.jpg'); */
+          background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00));
+          /* background-image: RGBA(240, 183, 46, 1.00)); */
+          position: relative; }
+          @media screen and (max-width: 768px) {
+            #colorlib-page-blue {
+              width: 100%;
+              overflow: hidden;
+              height: 90vh;
+              /* background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00)); */
+              /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
+              background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00));
+              /* background-image: RGBA(240, 183, 46, 1.00)); */
+              position: relative; } }
 
 #colorlib-aside {
   padding-top: 3em;
