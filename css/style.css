@@ -158,7 +158,23 @@ figure {
     margin-bottom: 2em;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+  }
+  #colorlib-aside .position-old-site {
+    display: block;
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #colorlib-aside .position-old-site a {
+    color: RGBA(42, 63, 105, 1.00);
+  }
+
+  #colorlib-aside .position-old-site a:hover {
+    color: RGBA(232, 184, 77, 1.00);
+  }
+
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
