@@ -1163,7 +1163,7 @@ body.offcanvas {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/cover_bg_1.gif');
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg');
   }
     @media screen and (max-width: 768px) {
       .colorlib-counters .overlay {
@@ -1171,7 +1171,7 @@ body.offcanvas {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg');
+        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg');
       }
     }
 
