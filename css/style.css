@@ -1163,7 +1163,9 @@ body.offcanvas {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg');
+    background-image: linear-gradient(RGBA(38, 62, 108, 1.00), RGBA(38, 62, 108, 1.00));
+    /* background-image: url('../images/cover_bg_3.jpg'); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg'); */
   }
     @media screen and (max-width: 768px) {
       .colorlib-counters .overlay {
@@ -1171,7 +1173,8 @@ body.offcanvas {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg');
+        background-image: linear-gradient(RGBA(38, 62, 108, 1.00), RGBA(38, 62, 108, 1.00));
+        /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg'); */
       }
     }
 
