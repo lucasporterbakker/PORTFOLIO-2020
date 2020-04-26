@@ -108,8 +108,8 @@ figure {
           overflow: hidden;
           height: 100vh;
           /* background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00)); */
-          /* background-image: url('../images/cover_bg_1.jpg'); */
-          background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00));
+          background-image: url('../images/img_bg_5.png');
+          /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
           /* background-image: RGBA(240, 183, 46, 1.00)); */
           position: relative; }
           @media screen and (max-width: 768px) {
@@ -1171,7 +1171,7 @@ body.offcanvas {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg');
+        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg');
       }
     }
 
