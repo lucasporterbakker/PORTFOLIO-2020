@@ -87,6 +87,7 @@ figure {
     width: 100%;
     overflow: hidden;
     height: 100vh;
+    /* background-image: url('../images/img_bg_5.png'); */
     background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00));
     /* background-image: url('../images/cover_bg_1.jpg'); */
     /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
@@ -308,7 +309,7 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-hero {
       height: 100vh;
-      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/img_bg_1.png');
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/img_bg_0.png');
       /* background-image: linear-gradient(RGBA(32, 61, 111, 1.00), RGBA(39, 72, 128, 1.00)); */
       /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
     }
@@ -1321,7 +1322,7 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background: RGBA(42, 63, 105, 1.00);
   color: #fff;
   border: 2px solid #2c98f0; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
