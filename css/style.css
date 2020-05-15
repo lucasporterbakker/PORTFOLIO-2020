@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'cera-gr';
-  src: url("../fonts/cera-gr.otf");
+  /* font-family: 'cera-gr';
+  src: url("../fonts/cera-gr.otf"); */
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -127,7 +127,7 @@ figure {
               position: relative; } }
 
 #colorlib-aside {
-  font-family: 'cera-gr', sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -172,7 +172,7 @@ figure {
     text-transform: uppercase;
   }
   #colorlib-aside .position-old-site a {
-    font-family: 'cera-gr', sans-serif;
+    font-family: "Quicksand", Arial, sans-serif;
     color: RGBA(42, 63, 105, 1.00);
   }
 
@@ -182,15 +182,16 @@ figure {
 
   #colorlib-aside #colorlib-logo {
     text-align: right;
-    font-family: 'cera-gr', sans-serif;
-    font-weight: 700;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 600;
     font-size: 22px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-logo a {
       display: block;
-      font-family: 'cera-gr', sans-serif;
+      font-weight: 500;
+      font-family: "Quicksand", Arial, sans-serif;
       text-align: center;
       color: #000;
       padding-right: .3em; }
@@ -498,7 +499,7 @@ body.offcanvas {
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
-  
+
   clear: both;
   width: 100%;
   display: block; }
