@@ -1167,7 +1167,7 @@ body.offcanvas {
   background-position: center center; }
   .colorlib-counters .overlay {
     z-index: 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     top: 0;
     left: 0;
