@@ -1187,6 +1187,7 @@ body.offcanvas {
       .colorlib-counters .overlay {
         background-attachment: fixed;
         background-position: center;
+        position: sticky;
         background-repeat: no-repeat;
         /* background-size: cover; */
         border-radius: 5px;
