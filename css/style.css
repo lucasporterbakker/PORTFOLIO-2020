@@ -110,6 +110,7 @@ figure {
           width: 100%;
           overflow: hidden;
           height: 100vh;
+          background-size: cover;
           /* background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00)); */
           background-image: url('../images/img_bg_5.png');
           /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
@@ -404,13 +405,13 @@ figure {
           font-weight: 700; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 34px;
+              font-size: 36px;
               color: #ffffff; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 18px;
+          font-size: 20px;
           line-height: 1.5;
           margin-bottom: 30px;
-          font-weight: 300;
+          font-weight: 400;
           font-family: "Quicksand", Arial, sans-serif; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
