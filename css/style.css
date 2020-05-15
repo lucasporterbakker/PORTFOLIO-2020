@@ -343,6 +343,7 @@ figure {
             overflow: hidden;
             height: 100vh;
             background-image: url('../images/img_bg_1.png');
+            /* background-image: url('../images/img_bg_5.png'); */
             /* background-image: linear-gradient(RGBA(39, 72, 128, 1.00), RGBA(32, 61, 111, 1.00)); */
             /* background-image: linear-gradient(RGBA(240, 183, 46, 1.00), RGBA(240, 183, 46, 1.00)); */
             /* background-image: RGBA(240, 183, 46, 1.00)); */
@@ -1171,12 +1172,14 @@ body.offcanvas {
     top: 0;
     left: 0;
     right: 0;
+    background-image: url('../images/img_bg_5.png');
     /* background: rgba(0, 0, 0, 0.6); */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00));
+    border-radius: 2px;
+    /* background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00)); */
     /* background-image: url('../images/cover_bg_3.jpg'); */
     /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg'); */
   }
@@ -1186,7 +1189,9 @@ body.offcanvas {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00));
+        border-radius: 5px;
+        background-image: url('../images/img_bg_5.png');
+        /* background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00)); */
         /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg'); */
       }
     }
@@ -1215,13 +1220,15 @@ body.offcanvas {
   .colorlib-counters .colorlib-counter {
     font-size: 40px;
     display: block;
-    color: white;
+    color: RGBA(18, 20, 51, 1.00);
+
     font-family: "Quicksand", Arial, sans-serif;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
   .colorlib-counters .colorlib-counter-label {
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: RGBA(18, 20, 51, 1.00);
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 5px;
