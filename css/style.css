@@ -1194,10 +1194,10 @@ body.offcanvas {
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 5px;
-        /* background: RGBA(244, 204, 72, 1.00); */
+        background: RGBA(244, 204, 72, 1.00);
         /* background-image: url('../images/img_bg_5.png'); */
         /* background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00)); */
-        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg');
+        /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg'); */
       }
     }
 
