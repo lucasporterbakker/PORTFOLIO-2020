@@ -173,7 +173,7 @@ figure {
   }
   #colorlib-aside .position-old-site a {
     font-family: "Quicksand", Arial, sans-serif;
-    color: RGBA(42, 63, 105, 1.00);
+    color: RGBA(42, 67, 116, 1.00);
   }
 
   #colorlib-aside .position-old-site a:hover {
@@ -284,7 +284,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: RGBA(38, 62, 108, 1.00);
+          color: RGBA(42, 67, 116, 1.00);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -498,7 +498,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 5em;
 
   clear: both;
   width: 100%;
@@ -512,8 +512,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 4em;
+      padding-bottom: 4em; } }
 
 .author-img {
   background-size: cover;
@@ -557,7 +557,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: RGBA(38, 62, 108, 1.00);
+  background: RGBA(42, 67, 116, 1.00);
   /* border: 2px;
   border-color: linear-gradient(to right, RGBA(238, 182, 47, 1.00), RGBA(7, 72, 131, 1.00)) !important; */
   }
@@ -583,7 +583,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: RGBA(38, 62, 108, 1.00);
+  background-color: RGBA(42, 67, 116, 1.00);
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -667,7 +667,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: RGBA(42, 67, 116, 1.00);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -681,13 +681,13 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: RGBA(42, 67, 116, 1.00); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: RGBA(42, 67, 116, 1.00); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: RGBA(42, 67, 116, 1.00); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
-    background: #2fa499; }
+    background: RGBA(42, 67, 116, 1.00); }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;
@@ -743,13 +743,13 @@ body.offcanvas {
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid RGBA(7, 72, 130, 1.00); }
+  border-bottom: 2px solid RGBA(42, 67, 116, 1.00); }
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: RGBA(7, 72, 130, 1.00); }
+      color: RGBA(42, 67, 116, 1.00); }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
@@ -769,7 +769,7 @@ body.offcanvas {
   .services.color-5 {
     border-bottom: 2px solid RGBA(122, 127, 89, 1.00); }
   .services.color-6 {
-    border-bottom: 2px solid RGBA(7, 72, 130, 1.00); }
+    border-bottom: 2px solid RGBA(42, 67, 116, 1.00); }
 
 .services {
   margin-bottom: 80px;
@@ -787,7 +787,7 @@ body.offcanvas {
     height: 50px;
     display: table;
     margin: 0 auto;
-    background: RGBA(7, 72, 130, 1.00); }
+    background: RGBA(42, 67, 116, 1.00); }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
@@ -799,14 +799,14 @@ body.offcanvas {
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
-      border-color: transparent transparent RGBA(7, 72, 130, 1.00) transparent; }
+      border-color: transparent transparent RGBA(42, 67, 116, 1.00) transparent; }
     .services .icon:after {
       bottom: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
-      border-color: RGBA(7, 72, 130, 1.00) transparent transparent transparent; }
+      border-color: RGBA(42, 67, 116, 1.00) transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
       color: #fff;
@@ -852,6 +852,8 @@ body.offcanvas {
 
 .progress-wrap h3 {
   font-size: 16px;
+  font-weight: 500;
+  color: RGBA(52, 52, 52, 1.00);
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
 
@@ -894,41 +896,41 @@ body.offcanvas {
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #2c98f0; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-1:after {
-      background: #2c98f0; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-1 span {
-      color: #2c98f0; }
+      color: RGBA(42, 67, 116, 1.00); }
   .progress-bar.color-2 {
-    background: #ec5453; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-2:after {
-      background: #ec5453; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-2 span {
-      color: #ec5453; }
+      color: RGBA(42, 67, 116, 1.00); }
   .progress-bar.color-3 {
-    background: #f9bf3f; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-3:after {
-      background: #f9bf3f; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-3 span {
-      color: #f9bf3f; }
+      color: RGBA(42, 67, 116, 1.00); }
   .progress-bar.color-4 {
-    background: #a84cb8; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-4:after {
-      background: #a84cb8; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-4 span {
-      color: #a84cb8; }
+      color: RGBA(42, 67, 116, 1.00); }
   .progress-bar.color-5 {
-    background: #2fa499; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-5:after {
-      background: #2fa499; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-5 span {
-      color: #2fa499; }
+      color: RGBA(42, 67, 116, 1.00); }
   .progress-bar.color-6 {
-    background: #4054b2; }
+    background: RGBA(42, 67, 116, 1.00); }
     .progress-bar.color-6:after {
-      background: #4054b2; }
+      background: RGBA(74, 152, 233, 1.00); }
     .progress-bar.color-6 span {
-      color: #4054b2; }
+      color: RGBA(42, 67, 116, 1.00); }
 
 .colorlib-feature {
   text-align: left;
@@ -1173,7 +1175,7 @@ body.offcanvas {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(RGBA(38, 62, 108, 1.00), RGBA(38, 62, 108, 1.00));
+    background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00));
     /* background-image: url('../images/cover_bg_3.jpg'); */
     /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_1.jpg'); */
   }
@@ -1183,7 +1185,7 @@ body.offcanvas {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(RGBA(38, 62, 108, 1.00), RGBA(38, 62, 108, 1.00));
+        background-image: linear-gradient(RGBA(42, 67, 116, 1.00), RGBA(42, 67, 116, 1.00));
         /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/cover_bg_3.jpg'); */
       }
     }
@@ -1331,18 +1333,19 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: RGBA(42, 63, 105, 1.00);
+  background: RGBA(42, 67, 116, 1.00);
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 2px solid RGBA(42, 67, 116, 1.00); }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
+    background: RGBA(42, 67, 116, 1.00) !important;
+    color: RGBA(244, 204, 72, 1.00);
+    border-color: RGBA(244, 204, 72, 1.00) !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #2c98f0;
+    color: RGBA(42, 67, 116, 1.00);
     border: 2px solid #2c98f0; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #2c98f0;
+      background: RGBA(42, 67, 116, 1.00);
       color: #fff; }
 
 .btn-success {
